@@ -1,6 +1,6 @@
-# VB .NET class that implements an Internet Explorer event listener using a separate thread for the listener.
-# The class uses OLE interfaces to listen for events, outputing an interaction map. A configuration class is used
-# to switch on/off events listened (once start listening, a lot of events will popup!)
+' VB .NET class that implements an Internet Explorer event listener using a separate thread for the listener.
+' The class uses OLE interfaces to listen for events, outputing an interaction map. A configuration class is used
+' to switch on/off events listened (once start listening, a lot of events will popup!)
 
 Imports SHDocVw
 Imports System.Runtime.InteropServices
